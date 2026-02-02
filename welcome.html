@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #e3f2fd;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    button {
+      padding: 10px 20px;
+      margin-top: 15px;
+      font-size: 16px;
+      border: none;
+      background: #28a745;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #1e7e34;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h2>Welcome 👋</h2>
+    <p>Glad to have you here!</p>
+    <button onclick="goToShine()">Continue</button>
+  </div>
+
+  <script>
+    function goToShine() {
+      window.location.href = "shine.html";
+    }
+  </script>
+
+</body>
+</html>
